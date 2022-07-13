@@ -1,2 +1,9 @@
-# 100-days-of-python
-Me learning Python from Angela's course "The Complete Python Pro Bootcamp for 2021"
+<h1 align="center"> 
+100 Days of Python
+</h1>
+<h5 align="center">
+Starting from : July 14, 2022
+</h5>
+
+## Beginner
+- [Day 1](day01): Working with Variables in Python to Manage Data
