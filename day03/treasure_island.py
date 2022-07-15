@@ -26,6 +26,8 @@ print("Welcome to Treasure Island\nYour mission is to find the treasure.\n")
 print("You walk along the trail until you find youreself in front of a crossroad.")
 print("The road on the left is grassy and less trodden.")
 print("The road on the right is more trodden but darker.")
+error_msg = "\nPlease type the correct option."
+
 choice1 = input("Which road do you choose to travel further. Type 'left' or 'right': ")
 
 if (choice1 == "right"):
@@ -55,8 +57,8 @@ elif (choice1 == "left"):
             print("You make your way to the staue and find its made of gold and stands on a treasure box.")
             print("Congratulations young adventurer! You have found the lost treasure!")
         else:
-            print("\nPlease type the correct option.")
+            print(error_msg)
     else:
-        print("\nPlease type the correct option.")
+        print(error_msg)
 else:
-    print("\nPlease type the correct option.")
+    print(error_msg)
